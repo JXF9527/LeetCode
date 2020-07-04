@@ -2,6 +2,7 @@ package reverseList206;
 
 import java.util.LinkedList;
 import java.util.Stack;
+import dataStructure.*;
 
 /**
  * Definition for singly-linked list.
@@ -11,12 +12,6 @@ import java.util.Stack;
  *     ListNode(int x) { val = x; }
  * }
  */
-
-public class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
-}
 
 class Solution {
     /**

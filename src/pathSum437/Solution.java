@@ -1,7 +1,7 @@
 package pathSum437;
 
 import java.util.*;
-
+import dataStructure.*;
 
 /**
  * Definition for a binary tree node.
@@ -73,9 +73,3 @@ class Solution {
     }
 }
 
-public class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
-}

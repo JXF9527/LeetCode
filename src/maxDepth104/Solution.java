@@ -2,6 +2,7 @@ package maxDepth104;
 
 import java.util.LinkedList;
 import java.util.Queue;
+import dataStructure.*;
 
 /**
  * Definition for a binary tree node.
@@ -12,12 +13,7 @@ import java.util.Queue;
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
-}
+
 class Solution {
     /**
      * 递归实现

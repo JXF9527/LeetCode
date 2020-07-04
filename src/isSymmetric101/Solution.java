@@ -1,6 +1,6 @@
 package isSymmetric101;
 
-
+import dataStructure.*;
 import java.util.*;
 
 /**
@@ -69,11 +69,4 @@ class Solution {
             return false;
         return helper(t1.left, t2.right) && helper(t1.right, t2.left);
     }
-}
-
-public class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
 }

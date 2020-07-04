@@ -1,4 +1,5 @@
 package getIntersectionNode160;
+import dataStructure.*;
 
 /**
  * Definition for singly-linked list.
@@ -78,13 +79,4 @@ class Solution {
     }
 }
 
-
-public class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) {
-        val = x;
-        next = null;
-    }
-}
 

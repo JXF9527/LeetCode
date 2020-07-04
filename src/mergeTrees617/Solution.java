@@ -1,5 +1,5 @@
 package mergeTrees617;
-
+import dataStructure.*;
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -9,12 +9,7 @@ package mergeTrees617;
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
-  }
+
 class Solution {
     public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
         if(t1 == null)
