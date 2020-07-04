@@ -1,5 +1,6 @@
 package convertBST538;
 
+import dataStructure.*;
 import java.util.Stack;
 
 /**
@@ -11,7 +12,7 @@ import java.util.Stack;
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+public class Solution {
     private int sum = 0;
 
     /**
@@ -55,9 +56,3 @@ class Solution {
     }
 }
 
-public class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
-}
