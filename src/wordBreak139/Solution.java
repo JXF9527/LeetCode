@@ -23,7 +23,9 @@ public class Solution {
         buf.append(")*");
         return s.matches(buf.toString());
     }
+
+
     public static void main(String[] args) {
-        boolean t = wordBreak("ggsb", null);
+        ;
     }
 }
